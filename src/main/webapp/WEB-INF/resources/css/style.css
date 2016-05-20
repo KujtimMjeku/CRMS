@@ -1,0 +1,104 @@
+.dropdown {
+	display: inline-block;
+	float: right;
+	margin-right: 110px;
+}
+ .fa-sign-in
+{
+	color: gray;
+	font-size: 1.4em;
+	float:right;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+.dropdown .fa-user {
+	font-size: 1.4em;
+	color: gray;
+	cursor: pointer;
+	margin-top:10px;
+}
+
+.dropdown .fa-sign-out {
+	font-size: 1.2em;
+	color: gray;
+	cursor: pointer;
+	margin-bottom: 3px;
+	margin-right: 5px;
+}
+
+.dropdown-menu {
+	margin: 0;
+	margin-left: -10px
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {
+	height: 1500px;
+	min-width: 800px;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+	background-color: #f1f1f1;
+	height: 100%;
+	max-width: 300px;
+	padding: 0px;
+	background-color: #293741;
+	/*  min-width: 250px;*/
+}
+
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+}
+
+.nav-elementt {
+	width: 100%;
+	text-align: left;
+	background-color: #293741;
+	color: #aaaaac;
+	border-bottom: 1px solid rgba(69, 74, 84, 0.7);
+}
+
+.nav>li>a:hover {
+	background-color: rgba(69, 74, 84, 0.7);;
+	color: #aaaaac;
+}
+
+.nav>li>a:active {
+	background-color: #293430;
+	color: #aaaaac;
+}
+
+.active-nav {
+	background-color: #293430;
+	color: #aaaaac;
+}
+
+.badge-notify {
+	background: red;
+	position: relative;
+	top: -15px;
+	left: -14px;
+}
+
+.with-errors
+{
+	color:#a94442;
+	display: none;
+	margin-bottom: 0;
+	margin-left: 8px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		max-width: 100%;
+	}
+	.row.content {
+		height: auto;
+	}
+}
